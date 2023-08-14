@@ -170,10 +170,16 @@
 
   .footer{
     padding: 0.75rem;
-    background-color: #020202;
+    background-color: #003049;
     color: white;
     text-align: center;
     font-family: "Times New Roman", sans-serif;
+  }
+
+  .color-derechos {
+    padding: 10px;
+    background-color: #003049;
+    color: #ffffff;
   }
 
 
