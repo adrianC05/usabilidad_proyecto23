@@ -50,138 +50,133 @@
   font-weight: 400;
 }
 
-.separador{
-    padding-top: 60px;
+.separador {
+  padding-top: 60px;
 }
 
-  
-  .row {
-    display: flex;
-    justify-content: space-between; 
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-  
-  .section {
-    width: 100%; 
-    padding: 10px;
-  }
-  
-  .img{
-    max-width: 400px;
-    height: auto;
-  }
-  
-  .titulo{
-    text-align: center;
-    color: #003049;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 1.20;
-    font-family: "Times New Roman", sans-serif;
-  }
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
 
-  .textoT{
-    padding-top: 2rem;
-    margin-right: 80px;
-    color: #003049;
-    font-family: "Times New Roman", sans-serif;
-  }
+.section {
+  width: 100%;
+  padding: 10px;
+}
 
-  .textoC{
-    padding-top: 0.4rem;
-    margin-right: 80px;
-    font-family: "Times New Roman", sans-serif;
-  }
+.img {
+  max-width: 400px;
+  height: auto;
+}
 
-  .textod{
-    line-height: 27px;
-    padding-left: 40px;
-  }
+.titulo {
+  text-align: center;
+  color: #003049;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.2;
+  font-family: "Times New Roman", sans-serif;
+}
 
-  .textoc{
-    line-height: 27px;
-    padding-left: 60px;
-  }
+.textoT {
+  padding-top: 2rem;
+  margin-right: 80px;
+  color: #003049;
+  font-family: "Times New Roman", sans-serif;
+}
 
-  .iconos{
-    padding-top: 3rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
+.textoC {
+  padding-top: 0.4rem;
+  margin-right: 80px;
+  font-family: "Times New Roman", sans-serif;
+}
 
-  .iconos:hover{
-    transform: scale(1.1);
-  }
+.textod {
+  line-height: 27px;
+  padding-left: 40px;
+}
 
-  .botones{
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
+.textoc {
+  line-height: 27px;
+  padding-left: 60px;
+}
 
-  .botones:hover{
-    transform: scale(1.1);
-  }
+.iconos {
+  padding-top: 3rem;
+  max-width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
-  .label-above {
-    display: block;
-    margin-bottom: 4px;
-    color: #003049;
-    font-weight: bold;
-  }
-  
-  .formulario {
-    margin-bottom: 15px;
-  }
-  
-  .formulario input[type="text"],
-  .formulario input[type="email"],
-  .formulario textarea {
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .formulario input[type="text"]:focus,
-  .formulario input[type="email"]:focus,
-  .formulario textarea:focus {
-    border-color: #003049;
-  }
+.iconos:hover {
+  transform: scale(1.1);
+}
 
-  .iconosF{
-    padding-top: 1rem;
-    padding-right: 30px;
-    max-width: 60px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
+.botones {
+  max-width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
-  .iconosF:hover{
-    transform: scale(1.1);  
-  }
+.botones:hover {
+  transform: scale(1.1);
+}
 
-  .footer1{
-    padding: 2rem;
-  }
+.label-above {
+  display: block;
+  margin-bottom: 4px;
+  color: #003049;
+  font-weight: bold;
+}
 
-  .footer{
-    padding: 0.75rem;
-    background-color: #003049;
-    color: white;
-    text-align: center;
-    font-family: "Times New Roman", sans-serif;
-  }
+.formulario {
+  margin-bottom: 15px;
+}
 
-  .color-derechos {
-    padding: 10px;
-    background-color: #003049;
-    color: #ffffff;
-  }
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+  border-color: #003049;
+}
 
-  
-  
+.iconosF {
+  padding-top: 1rem;
+  padding-right: 30px;
+  max-width: 60px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.iconosF:hover {
+  transform: scale(1.1);
+}
+
+.footer1 {
+  padding: 2rem;
+}
+
+.footer {
+  padding: 0.75rem;
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.color-derechos {
+  padding: 10px;
+  background-color: #003049;
+  color: #ffffff;
+}
