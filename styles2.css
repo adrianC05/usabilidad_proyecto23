@@ -1,40 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
-* {
+/* Estilos generales */
+body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.link-estilo {
-  text-decoration: none;
-}
-
-.interlineado {
-  line-height: 25px;
-}
-
-.interletrado {
-  letter-spacing: 7px;
-}
-
-/* Menu */
+/* Menú */
 .menu {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: end;
-  position: fixed; /* Agregar la posición fixed */
-  width: 100%;
-  transition: background-color 0.3s ease; /* Agregar una transición de color de fondo */
-  background-color: white; /* Color de fondo negro */
-}
-
-.menu.scrolled {
-  background-color: #ffffff; /* Cambiar el color de fondo del menú cuando se hace scroll */
+  background-color: #003049;
 }
 
 .menu li {
@@ -46,172 +25,80 @@
   display: block;
   padding: 15px 10px;
   text-decoration: none;
-  color: #003049;
+  color: #fdf3da;
   font-weight: 400;
 }
 
-.separador{
-    padding-top: 60px;
+.opcion:hover {
+  background-color: #fdf3da;
 }
 
-  
+.opcion a:hover {
+  color: #003049;
+}
+
+/* Secciones */
 .row {
   display: flex;
-  justify-content: space-between; 
-  padding-left: 4rem;
-  padding-right: 4rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
 }
-  
+
 .section {
-  width: 100%; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+  margin: 20px;
+  width: 23%;
+  padding: 20px;
+  background-color: #fdf3da;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
-.img{
-  max-width: 500px;
-  height: auto;
-  transition: transform 0.3s ease-in-out;
+
+.textoT {
+  color: #003049;
+}
+
+.img {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
 .img:hover {
   transform: scale(1.05);
 }
 
-  .centro{
-    align-items: center;
-  }
-  
-  .titulo{
-    color: #003049;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.20;
-    padding-left: 90px;
-  }
+.description {
+  color: #003049;
+  font-size: 14px;
+}
 
-  .titulo1 {
-    color: #003049;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.20;
-    text-align: center;
-  }
+/* Títulos */
+.titulo {
+  text-align: center;
+  color: #003049;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
 
-  .textoT{
-    padding-top: 2rem;  
-    color: #003049;
-    text-align: center;
-  }
+/* Footer */
+.footer1 {
+  text-align: center;
+  background-color: #003049;
+  padding: 20px;
+  color: #fdf3da;
+}
 
-  .textoC{
-    padding-top: 0.4rem;
-    margin-right: 80px;
-  }
+.iconosF {
+  width: 40px;
+  margin: 10px;
+}
 
-  .textod{
-    line-height: 27px;
-    padding-left: 40px;
-  }
-
-  .textoc{
-    line-height: 27px;
-    padding-left: 60px;
-  }
-
-  .iconos{
-    padding-top: 3rem;
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .iconos:hover{
-    transform: scale(1.1);
-  }
-
-  .botones{
-    max-width: 250px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .botones:hover{
-    transform: scale(1.1);
-  }
-
-  .label-above {
-    display: block;
-    margin-bottom: 4px;
-    color: #003049;
-    font-weight: bold;
-  }
-  
-  .formulario {
-    margin-bottom: 15px;
-  }
-  
-  .formulario input[type="text"],
-  .formulario input[type="email"],
-  .formulario textarea {
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .formulario input[type="text"]:focus,
-  .formulario input[type="email"]:focus,
-  .formulario textarea:focus {
-    border-color: #003049;
-  }
-
-  .iconosF{
-    padding-top: 1rem;
-    padding-right: 30px;
-    max-width: 60px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .iconosF:hover{
-    transform: scale(1.1);  
-  }
-
-  .footer1{
-    padding: 2rem;
-  }
-
-  .footer{
-    padding: 0.75rem;
-    background-color: #003049;
-    color: white;
-    text-align: center;
-  }
-
-  .color-derechos {
-    padding: 10px;
-    background-color: #003049;
-    color: #ffffff;
-  }
-
-  .o-course-card {
-    display: flex;
-    position: relative;
-    min-width: 250px;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #fff;
-  }
-
-  .description {
-    font-size: 14px;
-    color: #666;
-    margin-top: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-  }
-
+.footer {
+  text-align: center;
+  background-color: #003049;
+  padding: 10px;
+  color: #fdf3da;
+}
