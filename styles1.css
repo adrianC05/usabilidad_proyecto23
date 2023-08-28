@@ -24,6 +24,7 @@ body {
   width: 100%;
   transition: background-color 0.3s ease; /* Agregar una transición de color de fondo */
   background-color: #ffffff;
+  border-bottom: 3px solid #003049;
 }
 
 .menu.scrolled {

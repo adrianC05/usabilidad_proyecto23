@@ -31,10 +31,12 @@
   position: fixed; /* Agregar la posición fixed */
   width: 100%;
   transition: background-color 0.3s ease; /* Agregar una transición de color de fondo */
+  z-index: 100;
 }
 
 .menu.scrolled {
   background-color: #ffffff; /* Cambiar el color de fondo del menú cuando se hace scroll */
+  border-bottom: 3px solid #003049;
 }
 
 .menu li {
