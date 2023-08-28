@@ -57,9 +57,10 @@ body {
   margin: 20px;
   width: 23%;
   padding: 20px;
-  background-color: #fdf3da;
+  background-color: #e3f2fd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 40px;
 }
 
 .textoT {
@@ -109,4 +110,3 @@ body {
   padding: 10px;
   color: #fdf3da;
 }
-
