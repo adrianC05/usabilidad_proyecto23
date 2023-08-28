@@ -15,38 +15,45 @@ body {
 }
 
 /* Menu */
-.navbar {
-  background-color: #003049;
-  color: #fff;
-  padding: 10px 0;
-}
-
 .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: end;
+  position: fixed; /* Agregar la posición fixed */
+  width: 100%;
+  transition: background-color 0.3s ease; /* Agregar una transición de color de fondo */
+  background-color: #ffffff;
+}
+
+.menu.scrolled {
+  background-color: #ffffff; /* Cambiar el color de fondo del menú cuando se hace scroll */
 }
 
 .menu li {
   display: inline-block;
-  margin: 0 15px;
+  margin-left: 10px;
 }
 
 .menu li a {
+  display: block;
+  padding: 15px 10px;
   text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: color 0.3s ease;
+  color: #003049;
+  font-weight: 400;
 }
 
-.menu li a:hover {
-  color: #f76f8e;
+.opcion:hover {
+  background-color: #003049;
+}
+
+.opcion a:hover {
+  color: #fdf3da;
 }
 
 /* Separador con mapa */
 .separador {
-  padding: 20px 0;
+  padding: 55px 0;
   text-align: center;
 }
 
