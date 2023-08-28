@@ -7,13 +7,20 @@ body {
   margin: 0;
 }
 
-/* Menú */
+/* Menu */
 .menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: end;
-  background-color: #003049;
+  position: fixed; /* Agregar la posición fixed */
+  width: 100%;
+  transition: background-color 0.3s ease; /* Agregar una transición de color de fondo */
+  background-color: #ffffff;
+}
+
+.menu.scrolled {
+  background-color: #ffffff; /* Cambiar el color de fondo del menú cuando se hace scroll */
 }
 
 .menu li {
@@ -25,16 +32,16 @@ body {
   display: block;
   padding: 15px 10px;
   text-decoration: none;
-  color: #fdf3da;
+  color: #003049;
   font-weight: 400;
 }
 
 .opcion:hover {
-  background-color: #fdf3da;
+  background-color: #003049;
 }
 
 .opcion a:hover {
-  color: #003049;
+  color: #fdf3da;
 }
 
 /* Secciones */
@@ -102,3 +109,4 @@ body {
   padding: 10px;
   color: #fdf3da;
 }
+
